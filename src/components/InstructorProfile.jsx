@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, Linkedin } from "lucide-react";
+import { getImagePath } from "../utils/imageUtils";
 
 const InstructorProfile = () => {
   return (
@@ -12,7 +13,7 @@ const InstructorProfile = () => {
         <div className="bg-[#1a1f29] rounded-lg p-8">
           <div className="flex items-start gap-8">
             <img
-              src="/instructor-profile.png"
+              src={getImagePath("instructor-profile.png")}
               alt="Alexandre Silva"
               className="w-32 h-32 rounded-full object-cover"
             />

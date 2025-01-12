@@ -1,12 +1,13 @@
 import React from "react";
 import { Calendar } from "lucide-react";
+import { getImagePath } from "../utils/imageUtils";
 
 const Header = () => {
   return (
     <header className="relative bg-[#0d1117] text-white py-32">
       <div className="container mx-auto px-4 text-center max-w-4xl">
         <img
-          src="/automation-logo.png"
+          src={getImagePath("automation-logo.png")}
           alt="Automation MasterClass Live Logo"
           width="256"
           height="256"
@@ -15,9 +16,8 @@ const Header = () => {
         />
 
         <h1 className="text-4xl md:text-6xl font-bold mb-12 tracking-tight">
-          <span className="text-white">Automation </span>
-          <span className="text-blue-400">MasterClass </span>
-          <span className="text-blue-400">Live</span>
+          <span>Automation </span>
+          <span className="text-blue-400">MasterClass Live</span>
         </h1>
 
         <div className="flex items-center justify-center gap-3 text-lg text-gray-300">
