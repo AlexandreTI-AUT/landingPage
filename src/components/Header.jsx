@@ -22,7 +22,7 @@ const Header = () => {
 
         <div className="flex items-center justify-center gap-3 text-lg text-gray-300">
           <Calendar className="w-5 h-5 text-blue-400" />
-          <span>Início: 25 de janeiro de 2025</span>
+          <span>Início: 31 de Maio de 2025</span>
         </div>
       </div>
     </header>
