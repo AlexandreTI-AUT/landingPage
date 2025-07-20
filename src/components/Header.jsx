@@ -19,11 +19,10 @@ const Header = () => {
           <span>Automation </span>
           <span className="text-blue-400">MasterClass Live</span>
         </h1>
-
-        <div className="flex items-center justify-center gap-3 text-lg text-gray-300">
+        {/* <div className="flex items-center justify-center gap-3 text-lg text-gray-300">
           <Calendar className="w-5 h-5 text-blue-400" />
           <span>Início: 31 de Maio de 2025</span>
-        </div>
+        </div> */}
       </div>
     </header>
   );
